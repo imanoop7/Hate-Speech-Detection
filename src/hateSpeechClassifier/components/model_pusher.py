@@ -1,9 +1,9 @@
 import sys
-from hate.logger import logging
-from hate.exception import CustomException
-from hate.configuration.gcloud_syncer import GCloudSync
-from hate.entity.config_entity import ModelPusherConfig
-from hate.entity.artifact_entity import ModelPusherArtifacts
+from hateSpeechClassifier.logger import logging
+from hateSpeechClassifier.exception import CustomException
+from hateSpeechClassifier.configuration.gcloud_syncer import GCloudSync
+from hateSpeechClassifier.entity.config_entity import ModelPusherConfig
+from hateSpeechClassifier.entity.artifact_entity import ModelPusherArtifacts
 
 class ModelPusher:
     def __init__(self, model_pusher_config: ModelPusherConfig):
